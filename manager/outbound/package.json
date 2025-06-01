@@ -2,7 +2,7 @@
   "name": "outbound",
   "version": "0.1.0",
   "private": true,
-  "homepage": "/manager/outbound",
+  "homepage": "/wms_project_frontend/manager/outbound",
   "dependencies": {
     "@emotion/react": "^11.14.0",
     "@emotion/styled": "^11.14.0",
@@ -30,8 +30,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "predeploy": "npm run build"
   },
   "eslintConfig": {
     "extends": [

@@ -6,7 +6,7 @@ import Cin_estimate_main from "./pages/Cin_estimate_main";
 import Cin_contract_state_main from "./pages/Cin_contract_state_main";
 import Cin_state from "./pages/Cin_state";
 
-import ChatbotWrapper from "./pages/ChatbotWrapper";
+//import ChatbotWrapper from "./pages/ChatbotWrapper";
 
 const App = () => {
   return (

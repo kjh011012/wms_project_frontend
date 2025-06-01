@@ -2,7 +2,7 @@
   "name": "logistics-main",
   "version": "0.1.0",
   "private": true,
-  "homepage": ".",
+  "homepage": "/wms_project_frontend/logistics-main",
   "dependencies": {
     "@react-oauth/google": "^0.12.2",
     "@testing-library/dom": "^10.4.0",
@@ -22,8 +22,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "predeploy": "npm run build"
+    
   },
   "eslintConfig": {
     "extends": [

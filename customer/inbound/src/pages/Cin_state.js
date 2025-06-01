@@ -4,7 +4,7 @@ import React, { useState, useEffect, useCallback } from "react";
 import { AgGridReact } from "ag-grid-react";
 import "ag-grid-community/styles/ag-grid.css";
 import "ag-grid-community/styles/ag-theme-alpine.css";
-import { mockInventoryItems } from "../mock/mockInventoryData"; // ✅ mock 데이터 import
+import { mockInventoryItems } from "./mock/mockInventoryData"; // ✅ mock 데이터 import
 
 //const API_BASE_URL = "http://34.64.211.3:5070";
 //const API_DASHBOARD_BASE_URL = "http://34.64.211.3:5010";

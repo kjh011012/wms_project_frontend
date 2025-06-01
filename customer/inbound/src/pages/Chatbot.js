@@ -1,6 +1,7 @@
+{/*
 import React, { useState } from 'react';
-import axios from 'axios';
-import { axios5010 } from '../api/axios';
+//import axios from 'axios';
+//import { axios5010 } from '../api/axios';
 import { Bar } from 'react-chartjs-2';
 import {
   Chart as ChartJS,
@@ -12,9 +13,10 @@ import {
 } from 'chart.js';
 ChartJS.register(BarElement, CategoryScale, LinearScale, Tooltip, Legend);
 
-const API_BASE_URL = 'http://34.64.211.3:5098';
+//const API_BASE_URL = 'http://34.64.211.3:5098';
 
 function Chatbot({ onClose }) {
+  
   const [messages, setMessages] = useState([
     { type: 'bot', text: '안녕하세요! 무엇을 도와드릴까요?' }
   ]);
@@ -196,3 +198,4 @@ const styles = {
 };
 
 export default Chatbot;
+*/}

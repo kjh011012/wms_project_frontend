@@ -1,3 +1,4 @@
+{/*
 import React, { useState } from 'react';
 import Chatbot from '../pages/Chatbot';
 import { motion, AnimatePresence } from 'framer-motion';
@@ -48,3 +49,4 @@ function ChatbotWrapper() {
 }
 
 export default ChatbotWrapper;
+*/}

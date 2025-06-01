@@ -5,7 +5,7 @@ import { AgGridReact } from 'ag-grid-react';
 import 'ag-grid-community/styles/ag-grid.css';
 import 'ag-grid-community/styles/ag-theme-alpine.css';
 import Cin_contract_state from './Cin_contract_detail';
-import { mockContracts } from "../mock/mockCustomerContractData";
+import { mockContracts } from "./mock/mockCustomerContractData";
 
 function CustomerContract() {
   const [contracts, setContracts] = useState([]);
@@ -14,8 +14,8 @@ function CustomerContract() {
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [loading, setLoading] = useState(false);
 
-  const API_BASE_URL = "http://34.64.211.3:5012";
-  const API_DASHBOARD_BASE_URL = "http://34.64.211.3:5010";
+  //const API_BASE_URL = "http://34.64.211.3:5012";
+  //const API_DASHBOARD_BASE_URL = "http://34.64.211.3:5010";
 
   const [waitingContracts, setWaitingContracts] = useState([]);
   const [approvedContracts, setApprovedContracts] = useState([]);

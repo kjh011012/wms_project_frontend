@@ -1,5 +1,5 @@
 // CustomerMainPage.js
-import { axios5010 } from '../api/axios';
+//import { axios5010 } from '../api/axios';
 import React, { useState, useEffect } from "react";
 import { AgGridReact } from "ag-grid-react";
 import { Bar } from 'react-chartjs-2';

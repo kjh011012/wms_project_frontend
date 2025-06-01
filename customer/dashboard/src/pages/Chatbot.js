@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import axios from 'axios';
-import { axios5010 } from '../api/axios';
+//import axios from 'axios';
+//import { axios5010 } from '../api/axios';
 import { Bar } from 'react-chartjs-2';
 import {
   Chart as ChartJS,
@@ -12,7 +12,7 @@ import {
 } from 'chart.js';
 ChartJS.register(BarElement, CategoryScale, LinearScale, Tooltip, Legend);
 
-const API_BASE_URL = 'http://34.64.211.3:5098';
+//const API_BASE_URL = 'http://34.64.211.3:5098';
 
 function Chatbot({ onClose }) {
   const [messages, setMessages] = useState([
@@ -24,8 +24,9 @@ function Chatbot({ onClose }) {
 
   const handleSend = async () => {
     if (!inputText.trim()) return;
-
-    const userMessage = { type: 'user', text: inputText };
+  }
+  {/*  
+  const userMessage = { type: 'user', text: inputText };
     setMessages((prev) => [...prev, userMessage]);
     setInputText('');
     setLoading(true);
@@ -59,6 +60,7 @@ function Chatbot({ onClose }) {
       setLoading(false);
     }
   };
+  */}
 
   const handleKeyPress = (e) => {
     if (e.key === 'Enter') {

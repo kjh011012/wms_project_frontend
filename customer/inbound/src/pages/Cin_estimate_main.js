@@ -3,7 +3,7 @@ import React, { useState, useEffect, useRef } from "react";
 import "ag-grid-community/styles/ag-grid.css";
 import "ag-grid-community/styles/ag-theme-alpine.css";
 import Cin_contract_state from './Cin_contract_detail';
-import { mockEstimateTableData } from './mock/mockEstimateData';
+import { mockEstimateTableData } from './mock/mockEstimateTableData';
 
 const API_BASE_URL = "http://34.64.211.3:5011";
 const API_DASHBOARD_BASE_URL = "http://34.64.211.3:5010";
@@ -22,6 +22,7 @@ const CustomerEstimateForm = () => {
     subscription_inbound_date: "",
     outbound_date: "",
   });
+  
 
   const [quoteResult, setQuoteResult] = useState(null);
   const [tableData, setTableData] = useState([]);
@@ -145,7 +146,18 @@ const CustomerEstimateForm = () => {
     console.log("견적 저장됨:", processedData);
     alert("모의 저장 완료 (콘솔 확인)");
 
-    setFormData({ ...initialFormState });
+    setFormData({
+  product_name: "",
+  category: "",
+  width_size: "",
+  length_size: "",
+  height_size: "",
+  weight: "",
+  inbound_quantity: "",
+  warehouse_type: "상온",
+  subscription_inbound_date: "",
+  outbound_date: "",
+});
     setQuoteResult(null);
     await fetchTableData(); // 새로고침
   } catch (error) {
