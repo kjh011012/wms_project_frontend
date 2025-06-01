@@ -1,7 +1,7 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
 import "./HeaderNav.css";
-import API from "../api/axiosInstance";
+//import API from "../api/axiosInstance";
 
 const HeaderNav = () => {
   const navigate = useNavigate();
