@@ -10,7 +10,7 @@ const HeaderNav = () => {
 
   const handleLogout = async () => {
     try {
-      await API.post("/logout");
+      //await API.post("/logout");
     } catch (err) {
       console.error("로그아웃 실패:", err);
     } finally {
