@@ -1,3 +1,4 @@
+{/*
 import React, { useState } from 'react';
 import axios from 'axios';
 import { Bar } from 'react-chartjs-2';
@@ -196,3 +197,4 @@ const styles = {
 };
 
 export default Chatbot;
+*/}

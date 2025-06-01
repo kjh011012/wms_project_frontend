@@ -1,5 +1,6 @@
 // src/mock/mockContractForms.js
-const mockContractForms = {
+
+export const mockContractForms = {   // ✅ named export로 변경
   1: {
     title: "창고 보관 계약서",
     content: "본 계약은 아래 조건에 따라 창고 보관을 제공합니다.",
@@ -11,8 +12,5 @@ const mockContractForms = {
     content: "화물 입고 및 출고 조건은 아래와 같습니다.",
     terms: "모든 제품은 보험 가입 대상입니다.",
     signature: "김철수"
-  },
-  // 필요한 만큼 추가
+  }
 };
-
-export default mockContractForms;

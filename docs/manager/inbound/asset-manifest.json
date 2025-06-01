@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/wms_project_frontend/manager/inbound/static/css/main.119004e4.css",
+    "main.js": "/wms_project_frontend/manager/inbound/static/js/main.337cbf2d.js",
+    "static/js/453.bd6bd765.chunk.js": "/wms_project_frontend/manager/inbound/static/js/453.bd6bd765.chunk.js",
+    "static/media/location.png": "/wms_project_frontend/manager/inbound/static/media/location.65b3dab66a019895e632.png",
+    "static/media/icon4.svg": "/wms_project_frontend/manager/inbound/static/media/icon4.257d6db1ef8ee4484e721ad5ca7e03b2.svg",
+    "static/media/icon3.svg": "/wms_project_frontend/manager/inbound/static/media/icon3.34bbbab865981643798fc62e4a0a05b6.svg",
+    "static/media/icon2.svg": "/wms_project_frontend/manager/inbound/static/media/icon2.4f69b8d536c06ba765232b744b8171a6.svg",
+    "static/media/icon1.svg": "/wms_project_frontend/manager/inbound/static/media/icon1.b0cb2751b022cf640b3dcc709db5ee56.svg",
+    "static/media/logo.svg": "/wms_project_frontend/manager/inbound/static/media/logo.da96bc02422412d4dff37c1dfcace96c.svg",
+    "index.html": "/wms_project_frontend/manager/inbound/index.html",
+    "main.119004e4.css.map": "/wms_project_frontend/manager/inbound/static/css/main.119004e4.css.map",
+    "main.337cbf2d.js.map": "/wms_project_frontend/manager/inbound/static/js/main.337cbf2d.js.map",
+    "453.bd6bd765.chunk.js.map": "/wms_project_frontend/manager/inbound/static/js/453.bd6bd765.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.119004e4.css",
+    "static/js/main.337cbf2d.js"
+  ]
+}

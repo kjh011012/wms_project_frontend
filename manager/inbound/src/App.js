@@ -8,7 +8,7 @@ import Min_state_sp from "./pages/Min_state_sp";
 import { StorageMap, StorageDetail } from "./pages/StorageMap";
 import "leaflet/dist/leaflet.css";
 import ProtectedRoute from "./components/ProtectedRoute";
-import ChatbotWrapper from "./pages/ChatbotWrapper";
+//import ChatbotWrapper from "./pages/ChatbotWrapper";
 
 const App = () => {
   return (
@@ -43,7 +43,7 @@ const App = () => {
               <StorageDetail />
             </ProtectedRoute>} />
         </Routes>
-        {<ChatbotWrapper />}
+        {/* {<ChatbotWrapper />} */}
       </Base>
   
   );

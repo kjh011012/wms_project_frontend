@@ -17,7 +17,7 @@ const App = () => {
           <Route path="/user/CustomerContract" element={<Cin_contract_state_main />} />
           <Route path="/user/CustomerInbound" element={<Cin_state />} />
         </Routes>
-        {<ChatbotWrapper />}
+        {/*{<ChatbotWrapper />}*/}
       </Base>
   
   );

@@ -277,40 +277,39 @@ export const StorageDetail = ( { locationId }) => {
   const [selectedSlot, setSelectedSlot] = useState(null);
   const [showModal, setShowModal] = useState(false);
 
-  useEffect(() => {
-    axios.get(`${API_BASE}/storage/slots/${locationId}`)
-      .then((res) => setSlots(res.data))
-      .catch((err) => console.error("슬롯 불러오기 실패:", err));
-  }, [locationId]);
+  // 📌 locationId가 바뀔 때 mock 데이터 로드
+useEffect(() => {
+  setSlots(mockSlotData);  // 실제 API 대신 mock 사용
+}, [locationId]);
 
-  const handleEmptySlotClick = async (slotIndex) => {
-    setSelectedSlot(slotIndex);
-    try {
-      const res = await axios.get(`${API_BASE}/storage/unassigned/${locationId}`);
-      setUnassignedItems(res.data);
-      setShowModal(true);
-    } catch (err) {
-      console.error("할당 가능한 물품 불러오기 실패:", err);
-    }
-  };
+// ✅ 빈 슬롯 클릭 시 mock unassigned 불러오기
+const handleEmptySlotClick = (slotIndex) => {
+  setSelectedSlot(slotIndex);
+  setUnassignedItems(mockUnassignedItems);  // mock 사용
+  setShowModal(true);
+};
 
-  const handleAssign = async (product_name) => {
-    try {
-      const { x, y, z } = indexToXYZ(selectedSlot);
-      const slotName = `SLOT-${x}-${y}-${z}`; // ✅ 좌표 기반으로 생성
-      await axios.post(`${API_BASE}/storage/assign`, {
-        warehouse_num: slotName,
-        product_name,
-        warehouse_location: `보관소 ${String.fromCharCode(64 + Number(locationId))}`
-      });
-      alert("슬롯 배정 완료");
-      setShowModal(false);
-      const refreshed = await axios.get(`${API_BASE}/storage/slots/${locationId}`);
-      setSlots(refreshed.data);
-    } catch (err) {
-      alert("슬롯 저장 실패");
-    }
-  };
+// ✅ 배정 처리도 mock 기반으로만 상태 업데이트
+const handleAssign = (product_name) => {
+  const { x, y, z } = indexToXYZ(selectedSlot);
+  const slotName = `SLOT-${x}-${y}-${z}`;
+
+  // 상태를 수정하여 해당 슬롯에 할당한 것처럼 처리
+  const updatedSlots = slots.map((slot, index) =>
+    index === selectedSlot
+      ? {
+          ...slot,
+          available: false,
+          product_name,
+          company_name: "Mock업체",
+          slot_name: slotName
+        }
+      : slot
+  );
+  setSlots(updatedSlots);
+  setShowModal(false);
+  alert(`슬롯 ${slotName}에 ${product_name} 배정 완료`);
+};
 
   const totalSlots = 45;
   const slotSpacing = 2;

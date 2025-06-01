@@ -3,7 +3,7 @@ import {Routes, Route } from "react-router-dom";
 import Base from "./components/Base";
 import MainPage from "./pages/MainPage";
 import ProtectedRoute from "./components/ProtectedRoute";
-import ChatbotWrapper from "./pages/ChatbotWrapper";
+//import ChatbotWrapper from "./pages/ChatbotWrapper";
 
 const App = () => {
   return (
@@ -16,7 +16,7 @@ const App = () => {
           </ProtectedRoute>
           } />
       </Routes>
-      {<ChatbotWrapper />}
+      {/*{<ChatbotWrapper />}*/}
     </Base>
   );
 };

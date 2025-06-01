@@ -3,7 +3,7 @@ import { Routes, Route } from "react-router-dom";
 import Base from "./components/Base";
 import InventoryStatus from "./pages/InventoryStatus";
 import ProtectedRoute from "./components/ProtectedRoute"; // ✅ 추가
-import ChatbotWrapper from "./pages/ChatbotWrapper";
+//import ChatbotWrapper from "./pages/ChatbotWrapper";
 
 const App = () => {
   return (
@@ -15,7 +15,7 @@ const App = () => {
           </ProtectedRoute>
         } />
       </Routes>
-      {<ChatbotWrapper />}
+      {/*{<ChatbotWrapper />}*/}
     </Base>
   );
 };

@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import mockContractForm from './mock/mockContractForm';
+import { mockContractForms } from './mock/mockContractForm';
 
 function CustomerDetail({ contract, isOpen, onClose, onContractUpdate }) {
   const [barcodeUrl, setBarcodeUrl] = useState('');

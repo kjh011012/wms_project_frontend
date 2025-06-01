@@ -4,7 +4,7 @@ import React, { useState, useEffect, useRef } from "react";
 import { AgGridReact } from "ag-grid-react";
 import "ag-grid-community/styles/ag-grid.css";
 import "ag-grid-community/styles/ag-theme-alpine.css";
-import { mockOutboundItems } from "../mock/mockOutboundData";
+import { mockOutboundItems } from "./mock/mockOutboundData";
 
 //const API_BASE_URL = "http://34.64.211.3:5014";
 //const API_DASHBOARD_BASE_URL = "http://34.64.211.3:5010";

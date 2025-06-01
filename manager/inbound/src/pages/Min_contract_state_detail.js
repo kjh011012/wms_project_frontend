@@ -2,6 +2,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import Min_estimate_calculator from './Min_estimate_calculator';
 import { StorageMap } from './StorageMap'; // 가상의 StorageMap 컴포넌트
+import MOCK_CONTRACT_DETAIL from './mock/mockContractDetail';
 
 function Min_contract_state_detail({ contract, isOpen, onClose }) {
   const titleRef = useRef(null);
