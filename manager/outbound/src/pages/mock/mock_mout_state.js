@@ -1,0 +1,61 @@
+// mock_mout_state.js
+
+const mockOutboundData = [
+  {
+    id: 1,
+    company_name: "삼성전자",
+    product_name: "갤럭시 Z 플립",
+    inbound_quantity: 500,
+    warehouse_location: "1동 A-3",
+    warehouse_type: "냉장",
+    outbound_status: "출고요청",
+    outbound_date: "2024-06-02",
+    last_outbound_date: null,
+  },
+  {
+    id: 2,
+    company_name: "LG생활건강",
+    product_name: "샴푸 세트",
+    inbound_quantity: 200,
+    warehouse_location: "2동 C-1",
+    warehouse_type: "상온",
+    outbound_status: "출고 준비중",
+    outbound_date: "2024-06-03",
+    last_outbound_date: null,
+  },
+  {
+    id: 3,
+    company_name: "현대자동차",
+    product_name: "차량 부품",
+    inbound_quantity: 120,
+    warehouse_location: "B1 D-7",
+    warehouse_type: "상온",
+    outbound_status: "출고 준비 완료",
+    outbound_date: "2024-06-04",
+    last_outbound_date: null,
+  },
+  {
+    id: 4,
+    company_name: "쿠팡",
+    product_name: "택배 박스",
+    inbound_quantity: 800,
+    warehouse_location: "3동 F-2",
+    warehouse_type: "냉동",
+    outbound_status: "배차 완료",
+    outbound_date: "2024-06-05",
+    last_outbound_date: null,
+  },
+  {
+    id: 5,
+    company_name: "CJ제일제당",
+    product_name: "햇반",
+    inbound_quantity: 1000,
+    warehouse_location: "1동 B-2",
+    warehouse_type: "상온",
+    outbound_status: "출고완료",
+    outbound_date: "2024-06-01",
+    last_outbound_date: "2024-06-01",
+  },
+];
+
+export default mockOutboundData;
