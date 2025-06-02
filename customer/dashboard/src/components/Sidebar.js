@@ -59,17 +59,17 @@ const menuItems = [
       {
         label: "공지사항",
         icon: icon3,
-        url: "https://kjh011012.github.io/wms_project_frontend/customer/dashboard/#/user/Notices",
+        url: "https://kjh011012.github.io/wms_project_frontend/customer/inquiry/#/user/Notices",
       },
       {
         label: "문의사항",
         icon: icon4,
-        url: "https://kjh011012.github.io/wms_project_frontend/customer/dashboard/#/user/Inquiries",
+        url: "https://kjh011012.github.io/wms_project_frontend/customer/inquiry/#/user/Inquiries",
       },
       {
         label: "나의정보",
         icon: icon4,
-        url: "https://kjh011012.github.io/wms_project_frontend/customer/dashboard/#/user/Employees",
+        url: "https://kjh011012.github.io/wms_project_frontend/customer/inquiry/#/user/Employees",
       },
     ],
   },

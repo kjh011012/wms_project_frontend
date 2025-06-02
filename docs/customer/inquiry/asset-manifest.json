@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/wms_project_frontend/customer/inquiry/static/css/main.d4187ed4.css",
+    "main.js": "/wms_project_frontend/customer/inquiry/static/js/main.e0cfcbd2.js",
+    "static/js/488.03a6e3a3.chunk.js": "/wms_project_frontend/customer/inquiry/static/js/488.03a6e3a3.chunk.js",
+    "static/media/icon4.svg": "/wms_project_frontend/customer/inquiry/static/media/icon4.e017406fd4a5cc16aede52430ac5ec36.svg",
+    "static/media/icon3.svg": "/wms_project_frontend/customer/inquiry/static/media/icon3.55f824df5e514032db10287191256357.svg",
+    "static/media/icon2.svg": "/wms_project_frontend/customer/inquiry/static/media/icon2.1a4c3eef32004c43bda0ce98ea2a8b81.svg",
+    "static/media/icon1.svg": "/wms_project_frontend/customer/inquiry/static/media/icon1.8226833f25dac83d4fb81f46aa70fa76.svg",
+    "static/media/logo.svg": "/wms_project_frontend/customer/inquiry/static/media/logo.48d1bd39d14d1dae999688df65420253.svg",
+    "index.html": "/wms_project_frontend/customer/inquiry/index.html",
+    "main.d4187ed4.css.map": "/wms_project_frontend/customer/inquiry/static/css/main.d4187ed4.css.map",
+    "main.e0cfcbd2.js.map": "/wms_project_frontend/customer/inquiry/static/js/main.e0cfcbd2.js.map",
+    "488.03a6e3a3.chunk.js.map": "/wms_project_frontend/customer/inquiry/static/js/488.03a6e3a3.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d4187ed4.css",
+    "static/js/main.e0cfcbd2.js"
+  ]
+}
