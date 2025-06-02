@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/wms_project_frontend/docs/static/css/main.09cdd14c.css",
-    "main.js": "/wms_project_frontend/docs/static/js/main.eda6bd73.js",
-    "static/js/453.c050bd1d.chunk.js": "/wms_project_frontend/docs/static/js/453.c050bd1d.chunk.js",
-    "index.html": "/wms_project_frontend/docs/index.html",
-    "main.09cdd14c.css.map": "/wms_project_frontend/docs/static/css/main.09cdd14c.css.map",
-    "main.eda6bd73.js.map": "/wms_project_frontend/docs/static/js/main.eda6bd73.js.map",
-    "453.c050bd1d.chunk.js.map": "/wms_project_frontend/docs/static/js/453.c050bd1d.chunk.js.map"
+    "main.css": "/wms_project_frontend/logistics-main/static/css/main.09cdd14c.css",
+    "main.js": "/wms_project_frontend/logistics-main/static/js/main.85951b7a.js",
+    "static/js/453.c050bd1d.chunk.js": "/wms_project_frontend/logistics-main/static/js/453.c050bd1d.chunk.js",
+    "index.html": "/wms_project_frontend/logistics-main/index.html",
+    "main.09cdd14c.css.map": "/wms_project_frontend/logistics-main/static/css/main.09cdd14c.css.map",
+    "main.85951b7a.js.map": "/wms_project_frontend/logistics-main/static/js/main.85951b7a.js.map",
+    "453.c050bd1d.chunk.js.map": "/wms_project_frontend/logistics-main/static/js/453.c050bd1d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.09cdd14c.css",
-    "static/js/main.eda6bd73.js"
+    "static/js/main.85951b7a.js"
   ]
 }
