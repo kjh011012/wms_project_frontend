@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 //import axios from "axios";
-import "./CommentsPage.css"; // 그대로 사용
+import "../components/CommentsPage.css"; // 그대로 사용
 import mockComments from "./mock/mockComments"; 
 
 //const API_COMMENTS_URL = "http://34.47.73.162:5001/api/comments";
