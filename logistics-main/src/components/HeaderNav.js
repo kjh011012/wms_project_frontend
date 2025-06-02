@@ -57,7 +57,7 @@ const HeaderNav = () => {
 
         {isLoggedIn && role === "admin" && (
           <>
-            <button onClick={() => navigate("/admin/Mainpage")}>WMS</button>
+            <button onClick={() => navigate("https://kjh011012.github.io/wms_project_frontend/manager/dashboard/#/admin/Mainpage")}>WMS</button>
             <button onClick={() => navigate("/about")}>제품 설명</button>
             <button onClick={() => navigate("/mypage")}>마이페이지</button>
             <button onClick={() => navigate("/admin")}>관리자 페이지</button>
