@@ -162,7 +162,7 @@ const ManagerMainPage = () => {
           <div style={styles.statsContainer}>
             <div 
               style={{...styles.statsCard, cursor: 'pointer'}} 
-              onClick={() => window.location.href = 'http://34.64.211.3:3001/admin/contract-status'}
+              onClick={() => alert("로컬 서버 기능은 비활성화 상태입니다.")}
             >
               <div style={styles.statsCardTitle}>견적 내역</div>
               <div style={styles.statsValue}>{statistics.totalContracts}</div>
@@ -170,7 +170,7 @@ const ManagerMainPage = () => {
             </div>
             <div 
               style={{...styles.statsCard, cursor: 'pointer'}} 
-              onClick={() => window.location.href = 'http://34.64.211.3:3001/admin/inbound-status-detail'}
+              onClick={() => alert("로컬 서버 기능은 비활성화 상태입니다.")}
             >
               <div style={styles.statsCardTitle}>입고 내역</div>
               <div style={styles.statsValue}>{statistics.totalProducts}</div>
@@ -178,7 +178,7 @@ const ManagerMainPage = () => {
             </div>
             <div 
               style={{...styles.statsCard, cursor: 'pointer'}} 
-              onClick={() => window.location.href = 'http://34.64.211.3:3002/admin/OutboundStatus'}
+              onClick={() => alert("로컬 서버 기능은 비활성화 상태입니다.")}
             >
               <div style={styles.statsCardTitle}>출고 내역</div>
               <div style={styles.statsValue}>{statistics.totalInquiries}</div>
