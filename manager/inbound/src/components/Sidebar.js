@@ -15,7 +15,6 @@ const menuItems = [
         label: "메인페이지",
         icon: icon1,
         url: "https://kjh011012.github.io/wms_project_frontend/manager/dashboard/#/admin/Mainpage",
-        external: true,
       },
     ],
   },
@@ -26,13 +25,11 @@ const menuItems = [
         label: "계약 현황",
         icon: icon1,
         url: "https://kjh011012.github.io/wms_project_frontend/manager/inbound/#/admin/contract-status",
-        external: true,
       },
       {
         label: "입고 현황",
         icon: icon1,
         url: "https://kjh011012.github.io/wms_project_frontend/manager/inbound/#/admin/inbound-status-detail",
-        external: true,
       },
     ],
   },
@@ -43,7 +40,6 @@ const menuItems = [
         label: "출고 현황",
         icon: icon2,
         url: "https://kjh011012.github.io/wms_project_frontend/manager/outbound/#/admin/OutboundStatus",
-        external: true,
       },
     ],
   },
@@ -54,7 +50,6 @@ const menuItems = [
         label: "재고 현황",
         icon: icon2,
         url: "https://kjh011012.github.io/wms_project_frontend/manager/inventory/#/admin/InventoryStatus",
-        external: true,
       },
     ],
   },
@@ -65,7 +60,6 @@ const menuItems = [
         label: "기자재 관리",
         icon: icon2,
         url: "https://kjh011012.github.io/wms_project_frontend/manager/dashboard/#/admin/EquipmentList",
-        external: true,
       },
     ],
   },
@@ -76,19 +70,16 @@ const menuItems = [
         label: "공지사항",
         icon: icon3,
         url: "https://kjh011012.github.io/wms_project_frontend/manager/dashboard/#/admin/Notices",
-        external: true,
       },
       {
         label: "문의사항",
         icon: icon4,
         url: "https://kjh011012.github.io/wms_project_frontend/manager/dashboard/#/admin/Inquiries",
-        external: true,
       },
       {
         label: "사원관리",
         icon: icon4,
         url: "https://kjh011012.github.io/wms_project_frontend/manager/dashboard/#/admin/Employees",
-        external: true,
       },
     ],
   },
@@ -112,8 +103,6 @@ const Sidebar = () => {
                 key={childIndex}
                 href={child.url}
                 className="sidebar-item"
-                target="_blank"
-                rel="noopener noreferrer"
               >
                 {child.icon && (
                   <img
