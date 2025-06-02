@@ -75,7 +75,7 @@ const menuItems = [
   },
 ];
 
-// Sidebar 컴포넌트
+// Sidebar 컴포넌트 재업로드
 const Sidebar = () => {
   return (
     <div className="sidebar">

@@ -12,7 +12,7 @@ const App = () => {
 
       <Base>
         <Routes>
-          {/* 입고 현황 페이지 */}
+          {/* 입고 현황 페이지 재업로드 */}
           <Route path="/user/CustomerNotices" element={<CustomerNotices />} />
           <Route path="/user/Myinfo" element={<Myinfo />} />
           <Route path="/user/CustomerInquiries" element={<CustomerInquiries />} />
