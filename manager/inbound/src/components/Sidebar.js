@@ -64,7 +64,7 @@ const menuItems = [
       {
         label: "기자재 관리",
         icon: icon2,
-        url: "https://kjh011012.github.io/wms_project_frontend/manager/dashboard/#/admin/EquipmentList",
+        url: "https://kjh011012.github.io/wms_project_frontend/manager/equipments/#/admin/EquipmentList",
         external: true,
       },
     ],
@@ -75,19 +75,19 @@ const menuItems = [
       {
         label: "공지사항",
         icon: icon3,
-        url: "https://kjh011012.github.io/wms_project_frontend/manager/dashboard/#/admin/Notices",
+        url: "https://kjh011012.github.io/wms_project_frontend/manager/inquiry/#/admin/Notices",
         external: true,
       },
       {
         label: "문의사항",
         icon: icon4,
-        url: "https://kjh011012.github.io/wms_project_frontend/manager/dashboard/#/admin/Inquiries",
+        url: "https://kjh011012.github.io/wms_project_frontend/manager/inquiry/#/admin/Inquiries",
         external: true,
       },
       {
         label: "사원관리",
         icon: icon4,
-        url: "https://kjh011012.github.io/wms_project_frontend/manager/dashboard/#/admin/Employees",
+        url: "https://kjh011012.github.io/wms_project_frontend/manager/inquiry/#/admin/Employees",
         external: true,
       },
     ],
