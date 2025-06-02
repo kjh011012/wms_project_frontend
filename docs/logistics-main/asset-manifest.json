@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/wms_project_frontend/logistics-main/static/css/main.bc72e552.css",
-    "main.js": "/wms_project_frontend/logistics-main/static/js/main.c36ae56c.js",
+    "main.js": "/wms_project_frontend/logistics-main/static/js/main.1e269b9a.js",
     "static/js/453.c050bd1d.chunk.js": "/wms_project_frontend/logistics-main/static/js/453.c050bd1d.chunk.js",
     "index.html": "/wms_project_frontend/logistics-main/index.html",
     "main.bc72e552.css.map": "/wms_project_frontend/logistics-main/static/css/main.bc72e552.css.map",
-    "main.c36ae56c.js.map": "/wms_project_frontend/logistics-main/static/js/main.c36ae56c.js.map",
+    "main.1e269b9a.js.map": "/wms_project_frontend/logistics-main/static/js/main.1e269b9a.js.map",
     "453.c050bd1d.chunk.js.map": "/wms_project_frontend/logistics-main/static/js/453.c050bd1d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.bc72e552.css",
-    "static/js/main.c36ae56c.js"
+    "static/js/main.1e269b9a.js"
   ]
 }
