@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/wms_project_frontend/manager/outbound/static/css/main.10ad3616.css",
-    "main.js": "/wms_project_frontend/manager/outbound/static/js/main.1fdfd41b.js",
+    "main.js": "/wms_project_frontend/manager/outbound/static/js/main.14565ac2.js",
     "static/js/453.3395dcda.chunk.js": "/wms_project_frontend/manager/outbound/static/js/453.3395dcda.chunk.js",
     "static/media/icon4.svg": "/wms_project_frontend/manager/outbound/static/media/icon4.257d6db1ef8ee4484e721ad5ca7e03b2.svg",
     "static/media/icon3.svg": "/wms_project_frontend/manager/outbound/static/media/icon3.34bbbab865981643798fc62e4a0a05b6.svg",
@@ -10,11 +10,11 @@
     "index.html": "/wms_project_frontend/manager/outbound/index.html",
     "static/media/logo.svg": "/wms_project_frontend/manager/outbound/static/media/logo.da96bc02422412d4dff37c1dfcace96c.svg",
     "main.10ad3616.css.map": "/wms_project_frontend/manager/outbound/static/css/main.10ad3616.css.map",
-    "main.1fdfd41b.js.map": "/wms_project_frontend/manager/outbound/static/js/main.1fdfd41b.js.map",
+    "main.14565ac2.js.map": "/wms_project_frontend/manager/outbound/static/js/main.14565ac2.js.map",
     "453.3395dcda.chunk.js.map": "/wms_project_frontend/manager/outbound/static/js/453.3395dcda.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.10ad3616.css",
-    "static/js/main.1fdfd41b.js"
+    "static/js/main.14565ac2.js"
   ]
 }
