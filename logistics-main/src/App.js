@@ -1,5 +1,5 @@
 import React from "react";
-import { HashRouter as Router, Routes, Route } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import MainPage from "./pages/main/MainPage";
 import LoginPage from "./pages/auth/Auth";
 import HeaderNav from "./components/HeaderNav";
@@ -14,7 +14,7 @@ const clientId = "965956228643-qoo4lgt9fm0c3lcp4frp4vncr0b2ukc7.apps.googleuserc
 function App() {
     return (
         <GoogleOAuthProvider clientId={clientId}>
-            <Router>
+            <>
                 <HeaderNav />
                 <Routes>
                     <Route path="/" element={<MainPage />} />
@@ -24,7 +24,7 @@ function App() {
                     <Route path="/about" element={<ProductIntroductionPage />} />
                 </Routes>
                 <ChatBotFloating />
-            </Router>
+            </>
         </GoogleOAuthProvider>
     );
 }
