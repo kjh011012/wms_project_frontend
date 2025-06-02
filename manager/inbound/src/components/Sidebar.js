@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom"; // ✅ 내부 링크 사용을 위한 Link
 import "./Sidebar.css";
 import logo from "./logo.svg";
 import icon1 from "./icon1.svg";
@@ -7,45 +6,81 @@ import icon2 from "./icon2.svg";
 import icon3 from "./icon3.svg";
 import icon4 from "./icon4.svg";
 
-// HashRouter 내부 경로 기반 메뉴
+// 📌 GitHub Pages용 외부 URL 구조 (HashRouter 사용)
 const menuItems = [
   {
     label: "HOME",
     children: [
-      { label: "메인페이지", icon: icon1, path: "/admin/Mainpage" },
+      {
+        label: "메인페이지",
+        icon: icon1,
+        url: "https://kjh011012.github.io/wms_project_frontend/manager/dashboard/#/admin/Mainpage",
+      },
     ],
   },
   {
     label: "입고 및 계약",
     children: [
-      { label: "계약 현황", icon: icon1, path: "/admin/contract-status" },
-      { label: "입고 현황", icon: icon1, path: "/admin/inbound-status-detail" },
+      {
+        label: "계약 현황",
+        icon: icon1,
+        url: "https://kjh011012.github.io/wms_project_frontend/manager/inbound/#/admin/contract-status",
+      },
+      {
+        label: "입고 현황",
+        icon: icon1,
+        url: "https://kjh011012.github.io/wms_project_frontend/manager/inbound/#/admin/inbound-status-detail",
+      },
     ],
   },
   {
     label: "출고",
     children: [
-      { label: "출고 현황", icon: icon2, path: "/admin/OutboundStatus" },
+      {
+        label: "출고 현황",
+        icon: icon2,
+        url: "https://kjh011012.github.io/wms_project_frontend/manager/outbound/#/admin/OutboundStatus",
+      },
     ],
   },
   {
     label: "재고",
     children: [
-      { label: "재고 현황", icon: icon2, path: "/admin/InventoryStatus" },
+      {
+        label: "재고 현황",
+        icon: icon2,
+        url: "https://kjh011012.github.io/wms_project_frontend/manager/inventory/#/admin/InventoryStatus",
+      },
     ],
   },
   {
     label: "창고관리",
     children: [
-      { label: "기자재 관리", icon: icon2, path: "/admin/EquipmentList" },
+      {
+        label: "기자재 관리",
+        icon: icon2,
+        url: "https://kjh011012.github.io/wms_project_frontend/manager/dashboard/#/admin/EquipmentList",
+      },
     ],
   },
   {
     label: "시스템",
     children: [
-      { label: "공지사항", icon: icon3, path: "/admin/Notices" },
-      { label: "문의사항", icon: icon4, path: "/admin/Inquiries" },
-      { label: "사원관리", icon: icon4, path: "/admin/Employees" },
+      {
+        label: "공지사항",
+        icon: icon3,
+        url: "https://kjh011012.github.io/wms_project_frontend/manager/dashboard/#/admin/Notices",
+      },
+      {
+        label: "문의사항",
+        icon: icon4,
+        url: "https://kjh011012.github.io/wms_project_frontend/manager/dashboard/#/admin/Inquiries",
+      },
+      {
+        label: "사원관리",
+        icon: icon4,
+        url: "https://kjh011012.github.io/wms_project_frontend/manager/dashboard/#/admin/Employees",
+      },
     ],
   },
 ];
@@ -63,10 +98,12 @@ const Sidebar = () => {
           <div className="menu-label">{menu.label}</div>
           <div className="menu-children">
             {menu.children.map((child, childIndex) => (
-              <Link
+              <a
                 key={childIndex}
-                to={child.path}
+                href={child.url}
                 className="sidebar-item"
+                target="_self" // ✅ 현재 탭에서 열기
+                rel="noopener noreferrer"
               >
                 {child.icon && (
                   <img
@@ -76,7 +113,7 @@ const Sidebar = () => {
                   />
                 )}
                 <span>{child.label}</span>
-              </Link>
+              </a>
             ))}
           </div>
         </div>
