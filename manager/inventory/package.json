@@ -2,7 +2,7 @@
   "name": "inventory",
   "version": "0.1.0",
   "private": true,
-  "homepage": "/wms_project_frontend/manager/inventory",
+  "homepage": "https://kjh011012.github.io/wms_project_frontend/manager/inventory",
   "dependencies": {
     "@emotion/react": "^11.14.0",
     "@emotion/styled": "^11.14.0",
