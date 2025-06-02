@@ -100,10 +100,8 @@ const Sidebar = () => {
             {menu.children.map((child, childIndex) => (
               <a
                 key={childIndex}
-                href={child.url}
                 className="sidebar-item"
-                target="_self" // ✅ 현재 탭에서 열기
-                rel="noopener noreferrer"
+                onClick={() => (window.location.href = child.url)}
               >
                 {child.icon && (
                   <img
