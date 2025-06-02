@@ -9,7 +9,7 @@ import icon2 from "./icon2.svg";
 import icon3 from "./icon3.svg";
 import icon4 from "./icon4.svg";
 
-// 메뉴 데이터 (url을 내부 경로만 남기도록 수정)
+// 메뉴 데이터 구성 (외부 앱 이동은 external: true)
 const menuItems = [
   {
     label: "HOME",
@@ -20,20 +20,40 @@ const menuItems = [
   {
     label: "입고 및 계약",
     children: [
-      { label: "계약 현황", icon: icon1, url: "/admin/contract-status" },
-      { label: "입고 현황", icon: icon1, url: "/admin/inbound-status-detail" },
+      {
+        label: "계약 현황",
+        icon: icon1,
+        url: "https://kjh011012.github.io/wms_project_frontend/manager/inbound/admin/contract-status",
+        external: true
+      },
+      {
+        label: "입고 현황",
+        icon: icon1,
+        url: "https://kjh011012.github.io/wms_project_frontend/manager/inbound/admin/inbound-status-detail",
+        external: true
+      }
     ],
   },
   {
     label: "출고",
     children: [
-      { label: "출고 현황", icon: icon2, url: "/admin/OutboundStatus" },
+      {
+        label: "출고 현황",
+        icon: icon2,
+        url: "https://kjh011012.github.io/wms_project_frontend/manager/outbound/admin/OutboundStatus",
+        external: true
+      }
     ],
   },
   {
     label: "재고",
     children: [
-      { label: "재고 현황", icon: icon2, url: "/admin/InventoryStatus" },
+      {
+        label: "재고 현황",
+        icon: icon2,
+        url: "https://kjh011012.github.io/wms_project_frontend/manager/inventory/admin/InventoryStatus",
+        external: true
+      }
     ],
   },
   {
@@ -65,27 +85,41 @@ const Sidebar = () => {
       {/* 메뉴 렌더링 */}
       {menuItems.map((menu, index) => (
         <div key={index} className="menu-group">
-          {/* 상위 메뉴 */}
           <div className="menu-label">{menu.label}</div>
-
-          {/* 하위 메뉴 */}
           <div className="menu-children">
-            {menu.children.map((child, childIndex) => (
-              <Link
-                key={childIndex}
-                to={child.url}
-                className="sidebar-item"
-              >
-                {child.icon && (
-                  <img
-                    className="sidebar-icon"
-                    src={child.icon}
-                    alt={child.label}
-                  />
-                )}
-                <span>{child.label}</span>
-              </Link>
-            ))}
+            {menu.children.map((child, childIndex) =>
+              child.external ? (
+                <a
+                  key={childIndex}
+                  href={child.url}
+                  className="sidebar-item"
+                >
+                  {child.icon && (
+                    <img
+                      className="sidebar-icon"
+                      src={child.icon}
+                      alt={child.label}
+                    />
+                  )}
+                  <span>{child.label}</span>
+                </a>
+              ) : (
+                <Link
+                  key={childIndex}
+                  to={child.url}
+                  className="sidebar-item"
+                >
+                  {child.icon && (
+                    <img
+                      className="sidebar-icon"
+                      src={child.icon}
+                      alt={child.label}
+                    />
+                  )}
+                  <span>{child.label}</span>
+                </Link>
+              )
+            )}
           </div>
         </div>
       ))}
