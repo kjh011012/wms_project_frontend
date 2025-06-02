@@ -46,23 +46,23 @@ const HeaderNav = () => {
         )}
 
         {isLoggedIn && role === "user" && (
-  <>
-    <button
-      onClick={() =>
-        window.open(
-          "https://kjh011012.github.io/wms_project_frontend/customer/dashboard/#/user/CustomerMainPage",
-          "_self"
-        )
-      }
-    >
-      WMS
-    </button>
-    <button onClick={() => navigate("/about")}>제품 설명</button>
-    <button onClick={() => navigate("/contact")}>Contact</button>
-    <button onClick={() => navigate("/mypage")}>마이페이지</button>
-    <button onClick={handleLogout}>로그아웃</button>
-  </>
-)}
+          <>
+            <button
+              onClick={() =>
+                window.open(
+                  "https://kjh011012.github.io/wms_project_frontend/customer/dashboard/#/user/CustomerMainPage",
+                  "_self"
+                )
+              }
+            >
+              WMS
+            </button>
+            <button onClick={() => navigate("/about")}>제품 설명</button>
+            <button onClick={() => navigate("/contact")}>Contact</button>
+            <button onClick={() => navigate("/mypage")}>마이페이지</button>
+            <button onClick={handleLogout}>로그아웃</button>
+          </>
+        )}
 
 
         {isLoggedIn && role === "admin" && (
