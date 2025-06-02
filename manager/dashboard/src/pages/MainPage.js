@@ -333,7 +333,7 @@ const ManagerMainPage = () => {
 
 const styles = {
   mainContainer: {
-    backgroundColor: '#f5f5f5',
+    backgroundColor: '#fffffff',
     padding: '20px',
   },
   contentContainer: {
