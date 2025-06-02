@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/wms_project_frontend/logistics-main/static/css/main.09cdd14c.css",
-    "main.js": "/wms_project_frontend/logistics-main/static/js/main.7bcfe6b1.js",
+    "main.css": "/wms_project_frontend/logistics-main/static/css/main.bc72e552.css",
+    "main.js": "/wms_project_frontend/logistics-main/static/js/main.c36ae56c.js",
     "static/js/453.c050bd1d.chunk.js": "/wms_project_frontend/logistics-main/static/js/453.c050bd1d.chunk.js",
     "index.html": "/wms_project_frontend/logistics-main/index.html",
-    "main.09cdd14c.css.map": "/wms_project_frontend/logistics-main/static/css/main.09cdd14c.css.map",
-    "main.7bcfe6b1.js.map": "/wms_project_frontend/logistics-main/static/js/main.7bcfe6b1.js.map",
+    "main.bc72e552.css.map": "/wms_project_frontend/logistics-main/static/css/main.bc72e552.css.map",
+    "main.c36ae56c.js.map": "/wms_project_frontend/logistics-main/static/js/main.c36ae56c.js.map",
     "453.c050bd1d.chunk.js.map": "/wms_project_frontend/logistics-main/static/js/453.c050bd1d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.09cdd14c.css",
-    "static/js/main.7bcfe6b1.js"
+    "static/css/main.bc72e552.css",
+    "static/js/main.c36ae56c.js"
   ]
 }
