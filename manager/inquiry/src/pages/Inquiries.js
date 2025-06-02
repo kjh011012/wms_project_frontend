@@ -28,11 +28,11 @@ function Inquiries() {
     { headerName: "작성일", field: "date", width: 150, sortable: true, filter: true },
   ];
 
-  useEffect(() => {
-    if (inquiryId) {
-      fetchComments(inquiryId);
-    }
-  }, [inquiryId]);
+  // useEffect(() => {
+  //   if (inquiryId) {
+  //     fetchComments(inquiryId);
+  //   }
+  // }, [inquiryId]);
 
   const fetchInquiries = () => {
   let filtered = [...mockInquiries];
