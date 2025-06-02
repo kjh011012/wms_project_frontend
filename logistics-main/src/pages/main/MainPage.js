@@ -6,7 +6,7 @@ function MainPage() {
     return (
         <div className="main-page">
             <video autoPlay muted loop id="bg-video">
-                <source src="https://kjh011012.github.io/wms_project_frontend/logistics-main/video/background.webm" type="video/webm" />
+               <source src={`${process.env.PUBLIC_URL}/video/background.webm`} type="video/webm" />
             </video>
 
             <HeaderNav />
