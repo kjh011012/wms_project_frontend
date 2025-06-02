@@ -6,7 +6,7 @@ import icon2 from "./icon2.svg";
 import icon3 from "./icon3.svg";
 import icon4 from "./icon4.svg";
 
-// GitHub Pages용 외부 URL (HashRouter 대응)
+// GitHub Pages용 외부 URL (HashRouter 대응) 수정함
 const menuItems = [
   {
     label: "HOME",
