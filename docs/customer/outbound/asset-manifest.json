@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/wms_project_frontend/customer/outbound/static/css/main.095c9f58.css",
-    "main.js": "/wms_project_frontend/customer/outbound/static/js/main.aa591839.js",
+    "main.js": "/wms_project_frontend/customer/outbound/static/js/main.a1429c6d.js",
     "static/js/453.3395dcda.chunk.js": "/wms_project_frontend/customer/outbound/static/js/453.3395dcda.chunk.js",
     "static/media/icon4.svg": "/wms_project_frontend/customer/outbound/static/media/icon4.e017406fd4a5cc16aede52430ac5ec36.svg",
     "static/media/icon3.svg": "/wms_project_frontend/customer/outbound/static/media/icon3.55f824df5e514032db10287191256357.svg",
@@ -10,11 +10,11 @@
     "index.html": "/wms_project_frontend/customer/outbound/index.html",
     "static/media/logo.svg": "/wms_project_frontend/customer/outbound/static/media/logo.48d1bd39d14d1dae999688df65420253.svg",
     "main.095c9f58.css.map": "/wms_project_frontend/customer/outbound/static/css/main.095c9f58.css.map",
-    "main.aa591839.js.map": "/wms_project_frontend/customer/outbound/static/js/main.aa591839.js.map",
+    "main.a1429c6d.js.map": "/wms_project_frontend/customer/outbound/static/js/main.a1429c6d.js.map",
     "453.3395dcda.chunk.js.map": "/wms_project_frontend/customer/outbound/static/js/453.3395dcda.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.095c9f58.css",
-    "static/js/main.aa591839.js"
+    "static/js/main.a1429c6d.js"
   ]
 }
