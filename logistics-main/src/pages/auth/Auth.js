@@ -5,7 +5,7 @@ import "./Auth.css";
 //import API from "../../api/axiosInstance";
 import HeaderNav from "../../components/HeaderNav";
 import { GoogleLogin } from "@react-oauth/google";
-import { jwtDecode } from "jwt-decode";
+//import { jwtDecode } from "jwt-decode";
 import PhoneVerification from "./PhoneVerification";
 import { checkEmailExists, signupUser, loginUser } from "../mock/mockAuth"; // Mock functions for testing
 
@@ -183,7 +183,7 @@ const Auth = () => {
         <HeaderNav />
         <div className="auth-page">
           <video autoPlay muted loop className="video-background">
-            <source src="/video/background.webm" type="video/webm" />
+             <source src={`${process.env.PUBLIC_URL}/video/background.webm`} type="video/webm" />
           </video>
           <div className={`auth-container ${isLogin ? "login" : "signup"}`}>
             <div className="form-container login">

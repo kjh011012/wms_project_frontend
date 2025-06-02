@@ -1,4 +1,4 @@
-// src/pages/main/AdminMainPage.js
+// src/pages/main/AdminMainPage.js 여기도 수정함
 import React from "react";
 import "./MainPage.css";
 import HeaderNav from "../../components/HeaderNav";
