@@ -2,7 +2,7 @@
   "name": "logistics-main",
   "version": "0.1.0",
   "private": true,
-  "homepage": "/wms_project_frontend/logistics-main",
+  "homepage": "https://kjh011012.github.io/wms_project_frontend/docs",
   "dependencies": {
     "@react-oauth/google": "^0.12.2",
     "@testing-library/dom": "^10.4.0",
@@ -18,12 +18,11 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "predeploy": "npm run build"
-    
+   "start": "react-scripts start",
+  "build": "react-scripts build",
+  "deploy": "npm run build && xcopy /E /I /Y build ..\\docs\\logistics-main",
+  "test": "react-scripts test",
+  "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [
