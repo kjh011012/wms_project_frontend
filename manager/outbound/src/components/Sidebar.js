@@ -6,7 +6,7 @@ import icon2 from "./icon2.svg";
 import icon3 from "./icon3.svg";
 import icon4 from "./icon4.svg";
 
-// 📌 GitHub Pages용 외부 URL 구조 (HashRouter 사용)
+// GitHub Pages용 HashRouter URL 형식 메뉴
 const menuItems = [
   {
     label: "HOME",
@@ -15,6 +15,7 @@ const menuItems = [
         label: "메인페이지",
         icon: icon1,
         url: "https://kjh011012.github.io/wms_project_frontend/manager/dashboard/#/admin/Mainpage",
+        external: true,
       },
     ],
   },
@@ -25,11 +26,13 @@ const menuItems = [
         label: "계약 현황",
         icon: icon1,
         url: "https://kjh011012.github.io/wms_project_frontend/manager/inbound/#/admin/contract-status",
+        external: true,
       },
       {
         label: "입고 현황",
         icon: icon1,
         url: "https://kjh011012.github.io/wms_project_frontend/manager/inbound/#/admin/inbound-status-detail",
+        external: true,
       },
     ],
   },
@@ -40,6 +43,7 @@ const menuItems = [
         label: "출고 현황",
         icon: icon2,
         url: "https://kjh011012.github.io/wms_project_frontend/manager/outbound/#/admin/OutboundStatus",
+        external: true,
       },
     ],
   },
@@ -50,6 +54,7 @@ const menuItems = [
         label: "재고 현황",
         icon: icon2,
         url: "https://kjh011012.github.io/wms_project_frontend/manager/inventory/#/admin/InventoryStatus",
+        external: true,
       },
     ],
   },
@@ -60,6 +65,7 @@ const menuItems = [
         label: "기자재 관리",
         icon: icon2,
         url: "https://kjh011012.github.io/wms_project_frontend/manager/dashboard/#/admin/EquipmentList",
+        external: true,
       },
     ],
   },
@@ -70,21 +76,25 @@ const menuItems = [
         label: "공지사항",
         icon: icon3,
         url: "https://kjh011012.github.io/wms_project_frontend/manager/dashboard/#/admin/Notices",
+        external: true,
       },
       {
         label: "문의사항",
         icon: icon4,
         url: "https://kjh011012.github.io/wms_project_frontend/manager/dashboard/#/admin/Inquiries",
+        external: true,
       },
       {
         label: "사원관리",
         icon: icon4,
         url: "https://kjh011012.github.io/wms_project_frontend/manager/dashboard/#/admin/Employees",
+        external: true,
       },
     ],
   },
 ];
 
+// Sidebar 컴포넌트
 const Sidebar = () => {
   return (
     <div className="sidebar">
@@ -102,7 +112,7 @@ const Sidebar = () => {
                 key={childIndex}
                 href={child.url}
                 className="sidebar-item"
-                target="_self" // ✅ 현재 탭에서 열기
+                target="_self"
                 rel="noopener noreferrer"
               >
                 {child.icon && (
