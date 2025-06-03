@@ -18,10 +18,10 @@ const Min_state = () => {
   const [activeTab, setActiveTab] = useState("입고 준비");
   const [isModalOpen, setIsModalOpen] = useState(false);
 
-  const handleButtonClick = () => {
-    // 링크 이동 버튼
-    window.location.href = "http://34.64.211.3:3001/admin/SmPhoneInbound";
-  };
+  // const handleButtonClick = () => {
+  //   // 링크 이동 버튼
+  //   window.location.href = "http://34.64.211.3:3001/admin/SmPhoneInbound";
+  // };
 
   // 데이터 로드
  const fetchTableData = async () => {
@@ -114,12 +114,12 @@ const Min_state = () => {
             style={styles.inputField}
           />
           {/* 스마트폰 입고 링크 */}
-          <button
+          {/* <button
             onClick={handleButtonClick}
             style={styles.buttonPrimary}
           >
             스마트폰 입고
-          </button>
+          </button> */}
         </div>
 
         <div style={styles.tabContainer}>
