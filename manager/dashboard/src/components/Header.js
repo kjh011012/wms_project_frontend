@@ -26,9 +26,9 @@ const Header = () => {
   "user@test.com": process.env.PUBLIC_URL + "/images/user2.png",
 };
 
-setUserImage(imageMap[email] || process.env.PUBLIC_URL + "/images/default.png");
 
-    setUserImage(imageMap[email] || "/images/default.png");
+
+    setUserImage(imageMap[email] || process.env.PUBLIC_URL + "/images/default.png");;
   }, []);
 
   const handleMyInfoClick = () => {
