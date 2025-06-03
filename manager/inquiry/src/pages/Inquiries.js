@@ -27,6 +27,9 @@ function Inquiries() {
     { headerName: "제목", field: "title", flex: 1, sortable: true, filter: true },
     { headerName: "작성일", field: "date", width: 150, sortable: true, filter: true },
   ];
+   useEffect(() => {
+    fetchInquiries();
+  }, []);
 
   // useEffect(() => {
   //   if (inquiryId) {
