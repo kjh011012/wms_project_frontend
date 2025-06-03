@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/wms_project_frontend/manager/inquiry/static/css/main.bec7aa74.css",
-    "main.js": "/wms_project_frontend/manager/inquiry/static/js/main.1a4e4756.js",
+    "main.js": "/wms_project_frontend/manager/inquiry/static/js/main.202315a1.js",
     "static/js/453.93c1ec2a.chunk.js": "/wms_project_frontend/manager/inquiry/static/js/453.93c1ec2a.chunk.js",
     "static/media/icon4.svg": "/wms_project_frontend/manager/inquiry/static/media/icon4.e017406fd4a5cc16aede52430ac5ec36.svg",
     "static/media/icon3.svg": "/wms_project_frontend/manager/inquiry/static/media/icon3.55f824df5e514032db10287191256357.svg",
@@ -10,11 +10,11 @@
     "static/media/logo.svg": "/wms_project_frontend/manager/inquiry/static/media/logo.48d1bd39d14d1dae999688df65420253.svg",
     "index.html": "/wms_project_frontend/manager/inquiry/index.html",
     "main.bec7aa74.css.map": "/wms_project_frontend/manager/inquiry/static/css/main.bec7aa74.css.map",
-    "main.1a4e4756.js.map": "/wms_project_frontend/manager/inquiry/static/js/main.1a4e4756.js.map",
+    "main.202315a1.js.map": "/wms_project_frontend/manager/inquiry/static/js/main.202315a1.js.map",
     "453.93c1ec2a.chunk.js.map": "/wms_project_frontend/manager/inquiry/static/js/453.93c1ec2a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.bec7aa74.css",
-    "static/js/main.1a4e4756.js"
+    "static/js/main.202315a1.js"
   ]
 }
