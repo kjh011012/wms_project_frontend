@@ -17,17 +17,19 @@ const Header = () => {
   }, []);
 
   useEffect(() => {
-    const email = sessionStorage.getItem("userEmail");
-
-    // 이메일에 따라 고정 이미지 매핑
-    const imageMap = {
-      "admin@test.com": "/images/admin.png",
-      "test@test.com": "/images/user1.png",
-      "user@test.com": "/images/user2.png",
-    };
-
-    setUserImage(imageMap[email] || "/images/default.png");
-  }, []);
+      const email = sessionStorage.getItem("userEmail");
+  
+      // 이메일에 따라 고정 이미지 매핑
+     const imageMap = {
+    "admin@test.com": process.env.PUBLIC_URL + "/images/admin.png",
+    "test@test.com": process.env.PUBLIC_URL + "/images/user1.png",
+    "user@test.com": process.env.PUBLIC_URL + "/images/user2.png",
+  };
+  
+  
+  
+      setUserImage(imageMap[email] || process.env.PUBLIC_URL + "/images/default.png");;
+    }, []);
 
   const handleMyInfoClick = () => {
     navigate("/my-info");
